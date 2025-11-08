@@ -1,9 +1,34 @@
-img {
-    width: 200px;
-}
 body {
+    margin: 100;
     text-align: left;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     background: rgb(33, 21, 56);
     color: rgb(159, 180, 219);
+}
+
+.tab-bar {
+    background-color: #350053;
+    color: rgb(159, 180, 219);
+    padding-left: 350px;
+}
+
+.tabs {
+    list-style-type: none;
+    color: rgb(159, 180, 219);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tab {
+    flex: 10;
+    color: rgb(159, 180, 219);
+    text-align: left;
+}
+
+div {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 350px;
 }
