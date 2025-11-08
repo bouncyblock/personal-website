@@ -67,3 +67,10 @@ div {
     line-height: 1.6;
     color: #c9dce7;
 }
+
+audio {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
