@@ -1,0 +1,9 @@
+img {
+    width: 200px;
+}
+body {
+    text-align: left;
+    font-family: monospace;
+    background: rgb(33, 21, 56);
+    color: rgb(159, 180, 219);
+}
