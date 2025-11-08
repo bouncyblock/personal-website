@@ -1,15 +1,26 @@
 body {
-    margin: 100;
+    margin: 10px;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     background: rgb(33, 21, 56);
     color: rgb(159, 180, 219);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+li {
+    color: rgb(159, 180, 219);
 }
 
 .tab-bar {
-    background-color: #350053;
+    background-color: #142d72;
     color: rgb(159, 180, 219);
-    padding-left: 350px;
+    padding-left: 20%;
+    border-radius: 20px;
+    width: 80%;
+    height: 40px;
 }
 
 .tabs {
@@ -24,11 +35,35 @@ body {
     flex: 10;
     color: rgb(159, 180, 219);
     text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 div {
     padding-top: 10px;
-    padding-right: 30px;
+    padding-right: 30%;
     padding-bottom: 50px;
-    padding-left: 350px;
+    padding-left: 30%;
+}
+
+.blog-box {
+    border: 8px solid #5a0c8f;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #161a3f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-box h2 {
+    margin-top: 0;
+    color: #5e08e9;
+}
+.blog-box h4 {
+    color: #1472ff;
+}
+.blog-box p {
+    line-height: 1.6;
+    color: #c9dce7;
 }
