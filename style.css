@@ -2,8 +2,8 @@ body {
     margin: 10px;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
-    background: rgb(33, 21, 56);
-    color: rgb(159, 180, 219);
+    background: rgb(58, 12, 163);
+    color: rgb(76, 201, 240);
     background-image: url('./images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,12 +11,12 @@ body {
 }
 
 a {
-    color: rgb(159, 180, 219);
+    color: rgb(67, 97, 238);
 }
 
 .tab-bar {
-    background-color: #142d72;
-    color: rgb(159, 180, 219);
+    background-color: rgb(114, 9, 183);
+    color: rgb(247, 37, 133);
     border-radius: 20px;
     width: 80%;
     display: flex;
@@ -27,7 +27,7 @@ a {
 
 .tabs {
     list-style-type: none;
-    color: rgb(159, 180, 219);
+    color: rgb(247, 37, 133);
     display: flex;
     justify-content: space-around; /* or space-between */
     align-items: center;
@@ -36,7 +36,7 @@ a {
 
 .tab {
     flex: 10;
-    color: rgb(159, 180, 219);
+    color: rgb(247, 37, 133);
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
@@ -50,25 +50,25 @@ div {
 }
 
 .blog-box {
-    border: 8px solid #5a0c8f;
+    border: 8px solid rgb(114, 9, 183);
     border-radius: 15px;
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
-    background-color: #161a3f;
+    background-color: rgb(58, 12, 163);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .blog-box h2 {
     margin-top: 0;
-    color: #5e08e9;
+    color: rgb(247, 37, 133);
 }
 .blog-box h4 {
-    color: #1472ff;
+    color: rgb(247, 37, 133);
 }
 .blog-box p {
     line-height: 1.6;
-    color: #c9dce7;
+    color: rgb(76, 201, 240);
 }
 
 audio {
@@ -80,11 +80,11 @@ audio {
 }
 
 img {
-    border: 8px solid #5a0c8f;
+    border: 8px solid rgb(114, 9, 183);
     border-radius: 15px;
     padding: 0px;
     margin: 20px auto;
-    background-color: #161a3f;
+    background-color: rgb(58, 12, 163);
     max-width: 35%;
     max-height: 30%;
     position: fixed;
