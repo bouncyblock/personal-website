@@ -14,7 +14,7 @@ input.addEventListener('keydown', function (e) {
 function processCommand(cmd) {
     switch (cmd.toLowerCase()) {
         case 'help':
-            output.innerHTML += `<div>Commands: help, blog, contact, project, clear, developer, exit</div>`;
+            output.innerHTML += `<div>Commands: help, clear, exit, blog, contact, project, developer, date, whoami, uptime, version, roll, about. filesystem commands are not supported, CD LS etc. (but will be soon)</div>`;
         break;
         case 'clear':
             output.innerHTML = '';
@@ -52,8 +52,33 @@ function processCommand(cmd) {
                 window.location.href = `./developer.html`;
             }, 1000);
         break;
+        case cmd.startsWith('echo '):
+            output.innerHTML += `<div>${cmd.slice(5)}</div>`;
+        break;
+        case 'date':
+            output.innerHTML += `<div>${new Date().toString()}</div>`;
+        break;
+        case 'whoami':
+            output.innerHTML += `<div>you are an explorer of the interwebs</div>`;
+        break;
+        case 'uptime':
+            const uptime = Math.floor(performance.now() / 1000);
+            output.innerHTML += `<div>Terminal uptime: ${uptime} seconds</div>`;
+        break;
+        case 'version':
+            output.innerHTML += `<div>JS-Terminal v0.4</div>`;
+        break;
+        case 'roll':
+            const roll = Math.floor(Math.random() * 6) + 1;
+            output.innerHTML += `<div>You rolled a ${roll}</div>`;
+        break;
+        case 'about':
+            output.innerHTML += `<div>This site was built by Will Kuntze as a personal project for Hack Club's page.</div>`
+        break;
         default:
             output.innerHTML += `<div>Unknown command. Type 'help' for a list.</div>`;
         break;
+        
+        
     }
 }
