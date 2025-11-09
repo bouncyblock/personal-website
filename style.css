@@ -17,24 +17,27 @@ a {
 .tab-bar {
     background-color: #142d72;
     color: rgb(159, 180, 219);
-    padding-left: 20%;
     border-radius: 20px;
     width: 80%;
+    display: flex;
+    align-items: center;
     height: 40px;
+    margin: 0 auto; /* centers the tab bar horizontally */
 }
 
 .tabs {
     list-style-type: none;
     color: rgb(159, 180, 219);
-    margin: 0;
-    padding: 0;
     display: flex;
+    justify-content: space-around; /* or space-between */
+    align-items: center;
+    width: 100%;
 }
 
 .tab {
     flex: 10;
     color: rgb(159, 180, 219);
-    text-align: left;
+    text-align: center;
     font-size: xx-large;
     font-weight: bold;
 }
