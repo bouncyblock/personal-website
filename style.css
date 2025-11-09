@@ -10,7 +10,7 @@ body {
     background-size: cover;
 }
 
-li {
+a {
     color: rgb(159, 180, 219);
 }
 
@@ -73,4 +73,19 @@ audio {
     bottom: 10px;
     left: 10px;
     z-index: 1000;
+    visibility: visible;
+}
+
+img {
+    border: 8px solid #5a0c8f;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 20px auto;
+    background-color: #161a3f;
+    width: 35%;
+    height: 30%;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
 }
