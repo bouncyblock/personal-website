@@ -22,7 +22,7 @@ function processCommand(cmd) {
         case 'exit':
             output.innerHTML += `<div>Exiting terminal mode...</div>`;
             setTimeout(() => {
-                window.location.href = 'index.html';
+                window.location.href = '/index.html';
             }, 1000);
         break;
         case 'blog':
@@ -43,7 +43,7 @@ function processCommand(cmd) {
         case 'developer':
             output.innerHTML += `<div>Exiting terminal mode...</div>`;
             setTimeout(() => {
-                window.location.href = `developer.html`;
+                window.location.href = `/developer.html`;
             }, 1000);
         break;
         default:
