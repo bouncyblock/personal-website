@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+canvas#starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
