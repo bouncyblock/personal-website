@@ -11,6 +11,11 @@ input.addEventListener('keydown', function (e) {
     }
 });
 
+window.addEventListener('focus', () => {
+    input.focus();
+});
+
+
 function processCommand(cmd) {
     switch (cmd.toLowerCase()) {
         case 'help':
