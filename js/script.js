@@ -26,7 +26,13 @@ function processCommand(cmd) {
             }, 1000);
         break;
         case 'blog':
-            output.innerHTML += `<div>recent entry summery: made this website!</div>`;
+            output.innerHTML += `<div>avalible blogs: 1182025</div>`;
+        break;
+        case 'blog 1182025':
+            output.innerHTML += `<div>decided to participate in the https://page.hackclub.com/ program, so I build a personal site. 
+                This is that site!
+                its my first time making a website in any situation, so there was a LOT of pulling code from W3Schools, etc. but I did ultimatly make my own thing.
+                next time ill do an actual blog but this one is more of a test of div2 so...</div>`;
         break;
         case 'contact':
             output.innerHTML += `<div>will.kuntze@gmail.com</div>`;
