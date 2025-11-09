@@ -82,8 +82,8 @@ img {
     padding: 0px;
     margin: 20px auto;
     background-color: #161a3f;
-    width: 35%;
-    height: 30%;
+    max-width: 35%;
+    max-height: 30%;
     position: fixed;
     left: 50%;
     top: 60%;
