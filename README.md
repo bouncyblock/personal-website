@@ -1,6 +1,5 @@
 # my personal website!
-
-https://hackatime-badge.hackclub.com/U09GRHV7Y80/personal-website
+![HackaTime Badge](https://hackatime-badge.hackclub.com/U09GRHV7Y80/personal-website)
 
 ### Tools used to build:
 ***VS Code*** (finally had to set it up on my new machine)
