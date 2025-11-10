@@ -87,8 +87,6 @@ img {
     background-color: rgb(58, 12, 163);
     max-width: 35%;
     max-height: 30%;
-    position: fixed;
     left: 50%;
-    top: 60%;
     transform: translate(-50%, -50%);
 }
